@@ -11,3 +11,5 @@
 ##### node index.js 
 #####      OR
 ##### nodemon
+
+#### In your favourite browser run the application at localhost:3000 
