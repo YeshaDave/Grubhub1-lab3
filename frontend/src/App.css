@@ -1,0 +1,489 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.signupp{
+  width: 100%;
+}
+
+.Navbar {
+  display: block;
+  width: 100px;
+  height: 21px;
+  background-image: url(./images/logo-full-primary.svg);
+  background-repeat: no-repeat; 
+  padding-left: 20px;
+  padding-top: 40px
+}
+
+.Navbar-div {
+  width: 100%;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
+  padding-top: 20px
+}
+
+.bag-icon {
+  width: 80px;
+  height: 40px;
+  padding-right: 20px;
+  src: "https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwi7xPrHo93kAhXPHDQIHfqXCZkQjRx6BAgBEAQ&url=https%3A%2F%2Ffreeiconshop.com%2Ficon%2Fshopping-bag-icon-glyph%2F&psig=AOvVaw3ffoqt6p31CQLCqXVRc1IP&ust=1568995940133140";
+}
+
+.outer-box {
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 8px #E6E5F4;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.outer-box1 {
+  border: 1px solid black;
+  box-shadow: 0 0 5px #E6E5F4;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.img-menu {
+  width: 100px;
+  height: 100px
+}
+
+.profile-div {
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 8px #E6E5F4;
+  height: 100%
+}
+
+.button {
+  background-color: #0071EA;
+}
+
+.login-button {
+  background-color: #E62334;
+}
+
+.title-font {
+  font-family: graphik;
+  font-weight: 400;
+  font-size: 19.1px;
+  line-height: 1.40
+}
+
+.desc{
+  width: 250px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.font{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold
+}
+
+.button-img {
+  align-content: flex-start;
+  left: 10px;
+  position: absolute;
+}
+
+
+.msg-text {
+  text-align: center;
+  color : #FC0D1B;
+}
+
+.div-text {
+  text-align: center;
+}
+
+.div-text2 {
+  text-align: right;
+}
+
+.img-size {
+  height: auto;
+  width: auto
+}
+
+.font-bold {
+  font-weight: bold;
+  font-weight: 900
+}
+
+.div-menu {
+  float: left;
+  overflow: hidden;
+  width: 475px;
+  height: 150px;
+  display:flex; 
+  flex-direction:row;
+  justify-content: space-between;
+  border: 1px #E6E5F4;
+}
+
+.div-menu1 {
+  float: left;
+  overflow: hidden;
+  width: 300px;
+  height: 250px;
+  
+  justify-content: space-between;
+  border: 1px #E6E5F4;
+  padding-left: 0px
+}
+
+.div-menu2 {
+  float: left;
+  overflow: hidden;
+  width: 200px;
+  height: 80px;
+  
+  justify-content: space-between;
+  border: 1px #E6E5F4;
+  padding-left: 0px
+}
+
+.overflow{
+  overflow-x: scroll;
+}
+
+.div-menu1 {
+  float: left;
+  height:100px;
+  width: 300px;
+}
+
+.th1{
+  margin-left: 20px
+}
+
+.modal-backdrop
+{
+  opacity:0.5; 
+}
+
+.container1 {
+  position: relative;
+  width: 100%;
+  max-width: 150px;
+  float: left;
+  height:150px;
+}
+
+.table {
+  border-collapse: collapse;
+}
+
+.row-border{
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 8px #E6E5F4;
+  padding-bottom: .5em;
+  padding-top: .5em;
+}
+
+.menu-name{
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.img-div {
+  height:120px;
+  width: 120px;
+  right: 10%;
+  top: 10%;
+  margin-left: 20px;
+}
+
+.img-div1 {
+  height:120px;
+  width: 120px;
+  right: 10%;
+  top: 10%;
+}
+
+.section-input{
+  border: 0px;
+}
+
+
+.column-dimensions {
+  width: 160px;
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  align-content: center
+}
+
+.font{
+  font-weight: bold;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.font1{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.popup {
+  background: rgba(251, 253, 253, 0.8);
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+}
+
+.orders-card{
+  width: 100%;
+  height: 20px;
+  background-color: #6B6C82;
+}
+
+.inner-order{
+  padding-top: 5px;
+  padding-bottom: 5px
+}
+
+.orders{
+  padding-left: 0px;
+  padding-right: 0px;
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 8px #E6E5F4;
+  margin-top: 5px
+}
+
+.list{
+  list-style-type: none;
+}
+
+.button-div {
+  position: absolute;
+  margin-left: 600px;
+  top: 10%;
+  right: 1%;
+  transform: translate(-10%, -30%);
+  -ms-transform: translate(-50%, -50%);
+  font-size: 16px;
+  color: black;
+  font-weight: bold;
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  height: 25px;
+  width: 60px;
+  opacity: 0.8;
+}
+
+.home-background{
+  background-image: url("https://res.cloudinary.com/grubhub-marketing/image/upload/f_auto,fl_lossy,q_80/v1538431627/Homepage_Desktop_0018_Pizza_2x_qshvvo.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+}
+
+.search-bar {
+  width: 400px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.title-font{
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 25px
+}
+
+.title-font-white{
+  font-weight: bold;
+  font-weight: 900;
+  font-size: 25px;
+  color: white;
+}
+
+.div-home {
+  align-content: center;
+  align-items: center;
+}
+
+.search-bar-find {
+  height: 50px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #1374E7
+}
+
+.search-page-div {
+  border: 1px #E4E1F1;
+  box-shadow: 0 0 1px;
+  height: 100%;
+  float: left;
+}
+
+.filter {
+  font-weight: bold;
+  font-size: 30px
+}
+
+.items-div {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px
+}
+
+.items-inner-div {
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 8px #E6E5F4;
+  height:100%;
+}
+
+.details-main-divs{
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 8px #E6E5F4;
+  height:100%;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px
+}
+
+.cuisine-div{
+  border: 1px blue;
+  border-radius: 64px;
+  width: 128px;
+  height: 128px;
+  background: #1374E7;
+  float: left;
+}
+
+.cuisine-div-img{
+  border: 3px black;
+  border-radius: 64px;
+  width: 128px;
+  height: 128px;
+}
+
+.details-div {
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 3px #E6E5F4;
+}
+
+.logo{
+  position:absolute;
+  left: 95%;
+  top: 160px;
+  margin-left: -100px;
+  z-index: 20;
+  height:80px;
+  width: 80px;
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 1px #E6E5F4;
+  border-radius: 2px
+}
+
+.rest-name-div{
+  left: 15%;
+  margin-left: 40px;
+}
+
+.rest-img{
+  background-image: url("https://cloudfront.bjsrestaurants.com/img_5c12d69fd4c602.38449846_800_800_pizza.jpg");
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.order-div {
+  border: 1px #E6E5F4;
+  box-shadow: 0 0 8px #E6E5F4;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 50px;
+  padding-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: 200px;
+  height: 200px;
+}
+
+.order-div-img {
+  height: 100px;
+  width: 150px;
+  align-self: center
+}
+
+.order-div-text {
+  font-weight: 900;
+  color: #6B6C82;
+  text-align: center
+}
+
+.order-div-link {
+  text-align: center
+}
+
+.quantity{
+  width: 40px
+}
+
+.search-bar-text {
+  color: white;
+  font-weight: 900;
+  font-weight: bolder;
+  font-size: 16px
+}
+
+.search{
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px
+}
+
+.searchbar {
+  background-image: url("https://img.icons8.com/material-outlined/15/000000/search.png");
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  width: 200px;
+  border-radius: 5%
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
