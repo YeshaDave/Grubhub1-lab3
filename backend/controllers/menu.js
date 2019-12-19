@@ -17,12 +17,7 @@ var kafka = require('../kafka/client');
 // var multer = require('multer'),
 //     multerS3 = require('multer-s3');
 
-//     aws.config.update({
-//         accessKeyId: 'AKIAJ3A6RENOCBHMQGLA',
-//         secretAccessKey: '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',    
-//         region: 'us-west-1'
-//     });
-
+//    
     
 //   var menu = [
 //     {"name" : "Fries", "price" : "3.5", "image" : "Author 1"},
